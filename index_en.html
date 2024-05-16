@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mounir</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#accueil">
+                <img src="./img/logo.png" alt="my Logo">
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="#a-propos">About</a></li>
+            <li><a href="#competences">Skills</a></li>
+            <li><a href="#activite">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="langue">
+            <select id="langue">
+                <option value="fr">French</option>
+                <option value="en">English</option>
+                <option value="nl">Dutch</option>
+            </select>
+        </div>
+    </nav>
+    <section class="introduction">
+        <div class="phrase">
+            <p id="intro-texte">I'm not the best, but I'm doing my best to become the best.</p>
+        </div>
+        <div class="photo">
+            <img src="./img/cisco_event_4.jpg" alt="My picture">
+        </div> 
+    </section>
+    <section class="a-propos" id="a-propos">
+        <h2>About</h2>
+        <div class="projet-professionnel">
+            <h3>Professional project</h3>
+            <p>My professional journey begins with obtaining my bachelor's degree in computer technology, followed by seeking a position as a systems administrator, network administrator, or in the field of security and cloud computing. Driven by a constant desire for learning, I am committed to pursuing training and obtaining leading certifications such as those offered by Cisco, Microsoft, Linux, and Google. This will enable me to develop new skills and stay current in an ever-evolving IT industry. With these certifications and skills, I am confident in my ability to advance in the hierarchy and take on roles with increasing responsibilities.
+                Simultaneously, I am committed to improving my language skills, particularly in French, Dutch, and English, with the aim of becoming trilingual. In the long term, I aim to acquire extensive versatility and in-depth expertise in various areas of computer science.
+            </p>
+        </div>
+        <div class="points-forts">
+            <h3>Strengths</h3>
+            <ul>
+                <li>Remarkable motivation that drives me to achieve my goals.</li>
+                <li>Ability to keep my composure even in difficult and delicate situations.</li>
+                <li>Serious commitment to my responsibilities and projects.</li>
+                <li>A constant thirst for learning and self-improvement.</li>
+                <li>Perseverance in the face of challenges encountered along the way.</li>
+                <li>Ability to work autonomously while being an effective team member.</li>
+                <li>Customer-focused and dedicated to finding effective solutions.</li>
+            </ul>
+        </div>
+        <div class="points-faibles">
+            <h3>Weaknesses</h3>
+            <ul>
+                <li>Need to improve my language skills, as mentioned in my career plan, as this opens up many opportunities.</li>
+                <li>Tendency towards perfectionism, which can be both an asset and a hindrance. It can become a drawback when I spend more time than expected to complete a task to the highest possible quality, thus affecting the available time for subsequent tasks.</li>
+            </ul>
+        </div>
+        <div class="cv-button">
+            <a href="./img/CV_Jebbari_FR _V2.pdf" target="_blank" download="CV_Jebbari_FR.pdf">Download my CV</a>
+        </div>
+    </section>
+    <section class="competences" id="competences">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\linux.svg" alt="Linux">
+                <p>Linux</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div> 
+                </div>
+            </div>
+            <div class="competence">
+                <img src="C:\Users\Mounir\Downloads\windows-applications.svg" alt="Windows">
+                <p>Windows server</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div> 
+                </div>
+            </div>
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\docker.svg" alt="Docker">
+                <p>Docker</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div> 
+                </div>
+            </div>
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\git.svg" alt="Git">
+                <p>Git</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\html-fill.svg" alt="Git">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div> 
+                </div>
+            </div>
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\js.svg" alt="JavaScript">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div> 
+                </div>
+            </div>
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\css-3.svg" alt="CSS">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="competence">
+                <img src="c:\Users\Mounir\Downloads\python.svg" alt="Python">
+                <p>Python</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activites" id="activite">
+        <h2>Activities</h2>
+        <div class="row">
+            <div class="activite" onclick="ouvrirFenetreModal('activite1', 'Volunteering at Kringwinkel', 'My volunteering at Kringwinkel in Sint-Pieters-Leeuw, organized by PIN vzw, began with advice from my social assistant at the Agentschap Integratie en Inburgering agency. He recommended contacting PIN vzw to undertake this activity, aiming to facilitate my integration into Belgian society as well as the practice and improvement of my Dutch.<br><br>Kringwinkel is a thrift store that collects donated items from customers. They can either drop off their items directly on site or arrange for a colleague to pick them up at home by van. The collected items are then sorted to determine what can be sold, recycled, or given away. Additionally, Kringwinkel collaborates with VDAB to offer employment opportunities to job seekers. This concept is similar to Les Petits Riens.<br><br>My main role was to ensure the initial contact with customers: I helped them unload their items from their car, checked the acceptability of items for the thrift store, and sorted them into appropriate categories. Once bins were filled, I transported them to another floor. If an item needed to be disposed of, I took care of it and placed it in the appropriate container. Furthermore, I assisted customers by loading their heavy purchases into their vehicles.<br><br>This volunteering in the logistics field allowed me to improve my communication skills. Moreover, as it took place on Saturdays, this activity did not interfere with my attendance at classes.', ['./img/preuve_benevolat_1.png','./img/preuve_benevolat_2.png'])">
+                <h3>Volunteering at Kringwinkel</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite2', 'Hackathon 2021', 'I participated in the first edition of the hackathon organized by EPHEC, focused on the theme of sustainable development. Within my team, consisting of three other students (two in the second year of Computer Technology and one in the first year of Computer Technology), we developed a carpooling website for EPHEC students.<br><br>Our project aimed to address the issue of parking congestion at EPHEC and its surroundings, as many students drive alone. By facilitating carpooling, we sought to reduce CO2 emissions and transportation costs while promoting connections among students.', ['./img/conformation_inscription_hackathon_2021.png','./img/hackathon_2021_2.png','./img/hackathon_2021_1.png','./img/hackathon_2021_3.png'])">
+                <h3>Hackathon 2021</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite3', 'Hackathon 2022 (organization)', 'I assisted Mr. Noël and Mrs. Van de Schrieck in organizing the 2022 hackathon, the second edition following the success of the 2021 event. My responsibilities included setting up decorations, arranging the buffet, dishwashing, collecting food from one of the partners, clearing tables after meals, cleaning, preparing coffee, and monitoring to ensure that no unauthorized individuals entered EPHEC.', ['./img/hackathon_organisation_1.png','./img/hackathon_2022_2.jpg','./img/hackathon_organisation_2.png'])">
+                <h3>Hackathon 2022 (organization)</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activite" onclick="ouvrirFenetreModal('activite4', 'Cyber Security Challenge 2022', 'Following a presentation by an organizer of this challenge at EPHEC, I decided to participate in this event. This challenge, starting Friday morning and ending Sunday afternoon, offered me an excellent opportunity to put into practice the knowledge acquired at EPHEC and discover new tools and programming languages used in the field of security, such as Kali Linux and Wireshark.', ['./img/preuve_participation_cscbe.png','./img/preuve_CSCBE_1.jpg','./img/preuve_CSCBE_2.jpg','./img/preuve_CSCBE_3.jpg'])">
+                <h3>Cyber Security Challenge 2022</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite5', 'Student Jobs (Various Positions)', 'I have held various positions as a student, including delivery driver, warehouse worker, inventory clerk, production worker, order picker, gas station attendant, mail carrier, aircraft cleaning agent, and gardener. These student jobs allowed me to finance my expenses (rent, electricity, gas...) and break the daily routine between home and school, while also keeping me physically active.<br><br>Furthermore, these experiences helped me develop my professional network, practice different languages, and acquire numerous skills. To find these jobs, I searched for opportunities daily on temporary work agency websites and contacted them regularly. However, it was often challenging to find student jobs compatible with my busy schedule at EPHEC, as most employers required availability during the week.<br><br>I would like to thank all the HR consultants who showed understanding and placed their trust in me. I am also pleased that all my employers were satisfied with my work.', ['./img/preuve_travail.jpg'])">
+                <h3>Student Jobs (Various Positions)</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite6', 'Open Lab Activities 2022', 'In 2022, EPHEC professors organized workshops on various themes (PC disassembly, soldering workshop, microcontroller programming) at the Open Lab. I participated in these workshops out of a desire to learn and acquire new knowledge. These sessions proved to be particularly interesting and enriching, and I am convinced that the skills acquired will be useful and beneficial in the future.', ['./img/preuve_atelier_open_lab_1.png'])">
+                <h3>Open Lab Activities 2022</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activite" onclick="ouvrirFenetreModal('activite7', 'Open Lab Activities 2023 (LaTeX)', 'I participated in the LaTeX workshop organized by Mrs. Guérit, which provided an introduction to the use of LaTeX and its various applications. This workshop allowed me to discover the many possibilities offered by LaTeX and understand how to implement them. In the future, I would like to deepen my skills to fully master this tool.', ['./img/preuve_atelier_latex.png'])">
+                <h3>Open Lab Activities 2023 (LaTeX)</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite8', 'EPHEC Entreprendre Workshop 2022', 'I attended a workshop organized by EPHEC Entreprendre, dedicated to discovering the journeys of six EPHEC Alumni graduates who have created and developed their businesses in various sectors. Each speaker shared their entrepreneurial experience and the challenges they faced, providing valuable insights into their journey. This workshop allowed me to understand the obstacles they overcame and the strategies they implemented to succeed. Additionally, I had the opportunity to network with them over drinks, further enriching this inspiring experience.', ['./img/preuve_atelier_ephec_entreprendre.png'])">
+                <h3>EPHEC Entreprendre Workshop 2022</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite9', 'Non-Violent Communication Training', 'I participated in the Non-Violent Communication training organized by the Service d\'Aide à la Réussite (SAR). This training is of great importance as it teaches us to express our thoughts appropriately, without resorting to verbal violence or behaviors that could harm others. This skill is crucial both professionally and personally, as it promotes constructive and respectful exchanges, thus contributing to healthy and harmonious interpersonal relationships.', ['./img/preuve_atelier_com_non-violente.png'])">
+                <h3>Non-Violent Communication Training</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activite" onclick="ouvrirFenetreModal('activite10', 'Dangerous Products Training', 'During my student job as a warehouse worker at FedEx Express, I was required to handle various types of packages and shipments. This experience helped me understand the importance of proper training to handle shipments correctly based on their specific characteristics. Indeed, this training plays a crucial role in ensuring safety, both for myself and my colleagues, as well as in the proper handling of customers\' packages. By handling shipments appropriately, we contribute to increasing customer satisfaction, which is essential for maintaining the company\'s reputation and ensuring its sustainability.', ['./img/form_prod_dang_1.png','./img/form_prod_dang_2.png'])">
+                <h3>Dangerous Products Training</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite11', 'Airport Permit Certification', 'This is a permit authorizing driving within the airport, which is issued based on a standard B license. Obtaining it requires passing specific training and a final exam. To obtain this permit, it is imperative to score more than 21 out of 30 points, make no mistakes regarding traffic violations, and answer correctly the three randomly selected fundamental questions by the system.<br><br>Personally, I scored 27 out of 30 on this exam. This training allowed me to gain in-depth knowledge of the protocols and rules to follow in various situations encountered at the airport. Holding this permit significantly increases opportunities to be assigned shifts. Indeed, it allows us to transport both personnel and materials during aircraft cleaning operations.', ['./img/permis-tarmac.jpg'])">
+                <h3>Airport Permit Certification</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite12', 'Participation in Manifiesta Festival 2023', 'According to their official website, ManiFiesta is described as a two-day event aimed at reflecting the world as it should be. It encourages reflection on alternatives for the future, collective collaboration, and concrete action. ManiFiesta stands out for its language of solidarity and diversity, inviting participants to contribute to building a fairer future and celebrating together. In short, it is a celebration of solidarity.<br><br>I had the opportunity to participate in this event after receiving an invitation from my union. ManiFiesta takes place in Ostend and offers entertainment, meetings with other individuals and young members of the CSC from other cities, as well as participation in debates on a variety of topics.', ['./img/participation_manifiesta_2.jpg','./img/participation_manifiesta_1.jpg','./img/manifiesta_2.jpg','./img/manifiesta_1.jpg'])">
+                <h3>Participation in Manifiesta Festival 2023</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="activite" onclick="ouvrirFenetreModal('activite13', 'Learning Dutch', 'Residing in Belgium, I took the initiative to attend evening classes in Dutch, aware of its high demand in the job market. This initiative is crucial considering my location in Flanders, a region where the Dutch language prevails. Furthermore, the necessity to master this language is reinforced by the high frequency of Dutch in the correspondence I receive.<br><br>I enrolled in courses offered by Centers for Adult Education (CVOs), institutions specialized in adult education. These courses allow me to develop my language skills and adapt to the linguistic requirements of the job market in this Dutch-speaking region.', ['./img/nl_1.jpg','./img/nl_2.jpg'])">
+                <h3>Learning Dutch</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite14', 'Participation in Cisco Talent Connect', 'I had the opportunity to participate in the \'Cisco Talent Connect\' event in Diegem. This meeting was a valuable opportunity to discover Cisco\'s partners through presentations and exchanges with their representatives. It was also enriching to expand my professional network and obtain information about the support and follow-up services offered by these companies to young graduates. Additionally, I learned more about candidate selection criteria, including the most sought-after certifications and preferred professional profiles.<br><br>At the conclusion of the event, I had the opportunity to engage in discussions with the human resources consultants of these companies. Additionally, I had the privilege of visiting the \'Cisco Lab\', used for conducting tests. For example, when a client encounters a problem, experts try to replicate it in this laboratory to propose solutions. This experience was particularly impressive for me, as it was my first time visiting a data center of this magnitude.', ['./img/cisco_event_1.jpg','./img/cisco_event_2.jpg','./img/cisco_event_3.jpg','./img/cisco_event_4.jpg','./img/cisco_event_5.jpg'])">
+                <h3>Participation in Cisco Talent Connect</h3>
+            </div>
+            <div class="activite" onclick="ouvrirFenetreModal('activite15', 'Participation in Job Fair Brussels 2024', 'I participated in a job fair organized by Jobat, where I had the opportunity to interact with several recruiters. This experience allowed me to better understand the profiles sought in the current job market, while also enabling me to practice different languages.', ['./img/preuve_job_fair_1.png','./img/preuve_job_fair_3.gif','./img/preuve_job_fair_4.gif'])">
+                <h3>Participation in Job Fair Brussels 2024</h3>
+            </div>
+        </div>
+        <h2>Summary table of activities</h2>
+        <table id="tableau-activites">
+            <thead>
+                <tr>
+                    <th>Themes</th>
+                    <th>Types of activity</th>
+                    <th>Activities</th>
+                    <th>Real time</th>
+                    <th>Valued time</th>
+                    <th>Evidence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Communication -->
+                <tr>
+                    <td rowspan="3">Communication</td>
+                    <td></td>
+                    <td>Volunteering at Kringwinkel</td>
+                    <td>40h</td>
+                    <td>2h30</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_benevolat_1.png','./img/preuve_benevolat_2.png'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>Non-violent Communication Training (SAR)</td>
+                    <td>5h30</td>
+                    <td>5h30</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_atelier_com_non-violente.png'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td>Job Day</td>
+                    <td>Participation in Job Fair Brussels 2024</td>
+                    <td>2h</td>
+                    <td>2h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_job_fair_1.png','./img/preuve_job_fair_3.gif','./img/preuve_job_fair_4.gif'])">📷</span></td>
+                </tr>
+                <!-- Soft Skills -->
+                <tr>
+                    <td rowspan="5">Soft Skills</td>
+                    <td>Challenges</td>
+                    <td>Hackathon 2022 (Organization)</td>
+                    <td>29h</td>
+                    <td>10h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/hackathon_organisation_1.png','./img/hackathon_2022_2.jpg','./img/hackathon_organisation_2.png'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td>Work</td>
+                    <td>Student Job (Various positions)</td>
+                    <td>Approx. 8h per week</td>
+                    <td>0</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_travail.jpg'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>Dangerous Products Training</td>
+                    <td>10h</td>
+                    <td></td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/form_prod_dang_1.png','./img/form_prod_dang_2.png'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>Passing Airport Permit (TARMAC)</td>
+                    <td>15h</td>
+                    <td></td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/permis-tarmac.jpg'])">📷</span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Participation in Manifiesta 2023 Festival</td>
+                    <td>37h</td>
+                    <td></td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/participation_manifiesta_2.jpg','./img/participation_manifiesta_1.jpg','./img/manifiesta_2.jpg','./img/manifiesta_1.jpg'])">📷</span></td>
+                </tr>
+                <!-- Language -->
+                <tr>
+                    <td>Language</td>
+                    <td>Training</td>
+                    <td>Learning Dutch</td>
+                    <td>Minimum 3 hours per week</td>
+                    <td>10h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/nl_1.jpg','./img/nl_2.jpg'])">📷</span></td>
+                </tr>
+                <!-- Network -->
+                <tr>
+                    <td>Network</td>
+                    <td>Company Visits</td>
+                    <td>Participation in Cisco Talent Connect</td>
+                    <td>4h</td>
+                    <td>4h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/cisco_event_1.jpg','./img/cisco_event_2.jpg','./img/cisco_event_3.jpg','./img/cisco_event_4.jpg','./img/cisco_event_5.jpg'])">📷</span></td>
+                </tr>
+                <!-- Hardware -->
+                <tr>
+                    <td>Hardware</td>
+                    <td>Conferences</td>
+                    <td>Open Lab 2022 Activities (PC Disassembly, Welding Workshop, Microcontroller Programming)</td>
+                    <td>4h</td>
+                    <td>4h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_atelier_open_lab_1.png'])">📷</span></td>
+                </tr>
+                <!-- Web Dev -->
+                <tr>
+                    <td>Web Dev</td>
+                    <td>Challenges</td>
+                    <td>Hackathon 2021</td>
+                    <td>44h</td>
+                    <td>10h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/conformation_inscription_hackathon_2021.png','./img/hackathon_2021_2.png','./img/hackathon_2021_1.png','./img/hackathon_2021_3.png'])">📷</span></td>
+                </tr>
+                <!-- Security -->
+                <tr>
+                    <td>Security</td>
+                    <td>Challenges</td>
+                    <td>Cyber Security Challenge 2022</td>
+                    <td>32h</td>
+                    <td>10h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_participation_cscbe.png','./img/preuve_CSCBE_1.jpg','./img/preuve_CSCBE_2.jpg','./img/preuve_CSCBE_3.jpg'])">📷</span></td>
+                </tr>
+                <!-- Miscellaneous -->
+                <tr>
+                    <td>Miscellaneous</td>
+                    <td>Conferences</td>
+                    <td>Open Lab 2023 Activities (LaTeX)</td>
+                    <td>6h</td>
+                    <td>6h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_atelier_latex.png'])">📷</span></td>
+                </tr>
+                    <!-- Business Approach -->
+                <tr>
+                    <td>Business Approach</td>
+                    <td>Conferences</td>
+                    <td>Ephec Entrepreneurship Workshop 2022</td>
+                    <td>2h</td>
+                    <td>2h</td>
+                    <td><span class="proof-icon" onclick="openProofsModal(['./img/preuve_atelier_ephec_entreprendre.png'])">📷</span></td>
+                </tr>
+                    <!-- Total -->
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>1970h30</td>
+                    <td>66h</td>
+                    <td></td>
+                </tr>
+            </tbody>
+                    
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-item">
+            <a href="tel:+32467811300">
+                <i class="fas fa-phone"></i>
+            </a>
+            <span>+32467811300</span>
+        </div>
+        <div class="contact-item">
+            <a href="mailto:mounirjebbari2001@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <span>mounirjebbari2001@gmail.com</span>
+        </div>
+        <div class="contact-item">
+            <a href="https://www.google.com/maps/place/Brusselbaan+230,+1600+Sint-Pieters-Leeuw" target="_blank">
+                <i class="fas fa-map-marker-alt"></i>
+            </a>
+            <span>Brusselbaan 230, 1600 Sint-Pieters-Leeuw</span>
+        </div>
+        <div class="contact-item">
+            <a href="https://www.linkedin.com/in/mounir-jebbari-3b46421b0" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <span>LinkedIn</span>
+        </div>
+    </section>
+    <!-- Fenêtre modale -->
+    <div id="fenetre-modal" class="modal">
+        <div class="modal-contenu">
+            <span class="fermer" onclick="fermerFenetreModal()">&times;</span>
+            <h2 id="titre-activite"></h2>
+            <div id="contenu-activite">
+        </div>
+    </div>
+    </div>
+    <!-- Fenêtre modale pour les preuves -->
+    <div id="preuves-modal" class="modal">
+        <div class="modal-contenu">
+            <span class="fermer" onclick="fermerPreuvesModal()">&times;</span>
+            <div id="preuves-contenu">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
